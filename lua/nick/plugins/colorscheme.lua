@@ -1,0 +1,149 @@
+return {
+	-- "projekt0n/github-nvim-theme",
+	-- lazy = false, -- make sure we load this during startup if it is your main colorscheme
+	-- priority = 1000, -- make sure to load this before all the other start plugins
+	-- config = function()
+	-- 	require("github-theme").setup({
+	-- 		options = {
+	-- 			transparent = true,
+	-- 		},
+	-- 	})
+	--
+	-- 	vim.cmd("colorscheme github_dark_tritanopia")
+	-- end,
+	-- "sainnhe/gruvbox-material",
+	-- lazy = false,
+	-- priority = 1000,
+	-- config = function()
+	-- 	-- Optionally configure and load the colorscheme
+	-- 	-- directly inside the plugin declaration.
+	-- 	vim.g.gruvbox_material_enable_italic = true
+	-- 	vim.cmd.colorscheme("gruvbox-material")
+	-- end,
+	-- "neanias/everforest-nvim",
+	-- version = false,
+	-- lazy = false,
+	-- priority = 1000, -- make sure to load this before all the other start plugins
+	-- -- Optional; default configuration will be used if setup isn't called.
+	-- config = function()
+	-- 	require("everforest").setup({
+	-- 		background = "hard",
+	-- 	})
+	-- 	vim.cmd.colorscheme("everforest")
+	-- end,
+	-- "navarasu/onedark.nvim",
+	-- lazy = false,
+	-- priority = 1000,
+	-- config = function()
+	-- 	require("onedark").setup({
+	-- 		style = "darker",
+	-- 		transparent = true,
+	-- 	})
+	-- 	vim.cmd.colorscheme("onedark")
+	-- end,
+	-- "catppuccin/nvim",
+	-- name = "catppuccin",
+	-- priority = 1000,
+	-- lazy = false,
+	-- config = function()
+	-- 	require("catppuccin").setup({
+	-- 		no_italic = true,
+	-- 		term_colors = true,
+	-- 		transparent_background = true,
+	-- 		styles = {
+	-- 			comments = {},
+	-- 			conditionals = {},
+	-- 			loops = {},
+	-- 			functions = {},
+	-- 			keywords = {},
+	-- 			strings = {},
+	-- 			variables = {},
+	-- 			numbers = {},
+	-- 			booleans = {},
+	-- 			properties = {},
+	-- 			types = {},
+	-- 		},
+	-- 		color_overrides = {
+	-- 			mocha = {
+	-- 				base = "#000000",
+	-- 				mantle = "#000000",
+	-- 				crust = "#000000",
+	-- 			},
+	-- 		},
+	-- 		integrations = {
+	-- 			cmp = true,
+	-- 			gitsigns = true,
+	-- 			nvimtree = true,
+	-- 			treesitter = true,
+	-- 			notify = false,
+	-- 			mini = {
+	-- 				enabled = true,
+	-- 				indentscope_color = "",
+	-- 			},
+	-- 			-- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
+	-- 		},
+	-- 		dropbar = {
+	-- 			enabled = true,
+	-- 			color_mode = true,
+	-- 		},
+	-- 	})
+	-- 	vim.cmd.colorscheme("catppuccin")
+	-- end,
+	-- "aktersnurra/no-clown-fiesta.nvim",
+	-- lazy = false,
+	-- priority = 1000,
+	-- config = function()
+	-- 	require("no-clown-fiesta").setup({
+	-- 		theme = "dim",
+	-- 		transparent = true, -- Enable this to disable the bg color
+	-- 		styles = {
+	-- 			-- You can set any of the style values specified for `:h nvim_set_hl`
+	-- 			comments = {},
+	-- 			functions = {},
+	-- 			keywords = {},
+	-- 			lsp = {},
+	-- 			match_paren = {},
+	-- 			type = {},
+	-- 			variables = {},
+	-- 		},
+	-- 	})
+	-- 	vim.cmd.colorscheme("no-clown-fiesta")
+	-- end,
+	-- "wnkz/monoglow.nvim",
+	-- lazy = false,
+	-- priority = 1000,
+	-- opts = {},
+	-- config = function()
+	-- 	require("monoglow").setup({
+	-- 		on_colors = function(colors)
+	-- 			colors.bg = "#000000"
+	-- 			colors.fg = "#ffffff"
+	-- 		end,
+	-- 	})
+	-- 	vim.cmd.colorscheme("monoglow")
+	-- end,
+	-- "catppuccin/nvim",
+	-- name = "catppuccin",
+	-- priority = 1000,
+	-- config = function()
+	-- 	require("catppuccin").setup({
+	-- 		flavour = "auto", -- latte, frappe, macchiato, mocha
+	-- 		background = { -- :h background
+	-- 			light = "latte",
+	-- 			dark = "mocha",
+	-- 		},
+	-- 		transparent_background = true, -- disables setting the background color.
+	-- 	})
+	-- 	-- setup must be called before loading
+	-- 	vim.cmd.colorscheme("catppuccin-nvim")
+	-- end,
+	-- "RedsXDD/neopywal.nvim",
+	-- name = "neopywal",
+	-- lazy = false,
+	-- priority = 1000,
+	-- opts = {},
+	-- config = function()
+	-- 	require("neopywal").setup()
+	-- 	vim.cmd.colorscheme("neopywal")
+	-- end,
+}
